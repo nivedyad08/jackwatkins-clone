@@ -1,0 +1,125 @@
+body{
+    font-family: "JW Text";
+    overflow-x: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.header-top-text{
+    letter-spacing: .6px;
+    font-size: .8rem;
+    letter-spacing: .03em;
+    line-height: 1.4;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.top-bg-color{
+    background-color: #0047ba;
+}
+.content-wrapper{
+    padding-top: 0.6vmax;
+    padding-bottom: 6.6vmax;
+    width: 72%;
+    white-space: pre-wrap;
+}
+.content-wrapper h4{
+    line-height: 2.2;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-family: "Termina";
+    font-size: .87rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.content-wrapper h1{
+    font-family: "JW Display";
+    margin-top: 44px;
+    margin-bottom: 40px;
+    letter-spacing: -0.3rem;
+}
+.content-wrapper p{
+    letter-spacing: .02em;
+}
+
+.navbar-nav a::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scalex(0);
+    transform: scalex(0);
+    -webkit-transition: all .2s ease-in-out 0s;
+}
+
+#navbarNav a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: .8px;
+}
+.thoughtful-design button{
+    border: 2px solid #000;
+}
+.thoughtful-design .card-title, .blockquote h1{
+    letter-spacing: -0.2rem;
+}
+.thoughtful-design .card-text{
+    letter-spacing: 0.04rem;
+}
+.floral-desigers h6{
+    letter-spacing: 0.3rem;
+}
+.blockquote-footer::before {
+    content: "";
+}
+figcaption p{
+    letter-spacing: 0.05rem;
+}
+.brand-fig h1{
+    letter-spacing: -0.06rem;
+}
+.brand-design-fig h2,.thoughtful-design h1{
+    letter-spacing: -0.06rem;
+}
+.notes button{
+    color: #0047ba;
+    border:2px solid #0047ba;
+    letter-spacing: 0.1rem;
+}
+.enquiring-minds p{
+    letter-spacing: 0.01rem; 
+}
+.subscribe button{
+    border:2px solid #000;
+    letter-spacing: 0.03rem; 
+}
+.subscribe input{
+    height: 65px;
+    border-radius: 0px;
+    font-weight: 400;
+    color: #750d0d;
+}
+.subscribe input::placeholder{
+    font-weight: 300;
+    color: #c0c0c0;
+}
+.users-p{
+    letter-spacing: 0.2rem !important;
+}
+form{
+    border: 1px solid #efefec;
+}
+footer{
+    background: #000000;
+}
+.divider{
+    border-bottom: 2px solid #232323;
+}
+.copyright{
+    letter-spacing: 0.03rem;
+}
+/* .navbar>.container-fluid{
+    flex-wrap: nowrap;
+} */
