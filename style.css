@@ -120,6 +120,6 @@ footer{
 .copyright{
     letter-spacing: 0.03rem;
 }
-/* .navbar>.container-fluid{
-    flex-wrap: nowrap;
-} */
+.navbar>.container-fluid{
+    flex-wrap: initial !important;
+}
